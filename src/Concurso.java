@@ -8,6 +8,31 @@ public class Concurso {
      public char nombre;
      private int nproblemas;
      private int nquipos;
+
+    public char getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(char nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getNproblemas() {
+        return nproblemas;
+    }
+
+    public void setNproblemas(int nproblemas) {
+        this.nproblemas = nproblemas;
+    }
+
+    public int getNquipos() {
+        return nquipos;
+    }
+
+    public void setNquipos(int nquipos) {
+        this.nquipos = nquipos;
+    }
+     
      
      
      Concurso(char nombre, int nproblemas){
