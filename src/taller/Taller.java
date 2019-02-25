@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package taller;
+
 
 /**
  *
@@ -15,7 +17,18 @@ public class Taller {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Concursos obj = new Concursos();
+        
+       //m String[] mila = null;
+        //obj.llamada();
+        obj.anadirequipo();
+        obj.anadirequipo();
+        //obj.anadirequipo();
+        obj.verequipo();
+        boolean eliminarequipo = obj.eliminarequipo();
+        obj.verequipo();
+
+    
     }
     
 }
